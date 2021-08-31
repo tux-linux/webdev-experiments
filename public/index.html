@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="bundle.css">
+    <style>
+      .center {
+        margin: auto;
+        text-align: center;
+      }
+    </style>
+    <script>
+      function helloWorld() {
+        console.log("Hello world");
+      }
+    </script>
+  </head>
+  <body>
+    <div class= "center">
+      <button onclick="helloWorld()" class="foo-button mdc-button mdc-button--raised">
+        <div class="mdc-button__ripple"></div>
+        <span class="mdc-button__touch"></span>
+        <span class="mdc-button__label", style="color: white">Run</span>
+      </button>
+    </div>
+    <script src="bundle.js" async></script>
+  </body>
+</html>
